@@ -1,3 +1,37 @@
+# Example Project with Spring Boot and JPA
+
+This is a sample project demonstrating the use of Spring Boot along with the Java Persistence API (JPA) for database mapping in a Java application.
+
+## Objective
+
+The **objective** of this project is to provide a simple and functional example of how to create a web application using Spring Boot to facilitate the development of Java applications based on the Spring Framework, integrating JPA for data persistence.
+
+## Key Features
+
+- **Spring Boot**: Used as the primary framework for application development, simplifying configuration and providing an integrated execution environment.
+  
+- **Spring Data JPA**: Used to facilitate the implementation of JPA-based data repositories, eliminating the need to write repetitive data access code.
+  
+- **Database**: The project utilizes a relational database (such as MySQL, PostgreSQL, H2, etc.) to store and retrieve application data. In this project, H2 database was used.
+  
+- **RESTful Endpoints**: The application provides RESTful endpoints to perform CRUD (Create, Read, Update, Delete) operations on the database data.
+
+## How to Use
+
+1. Clone this repository to your local machine.
+  
+2. Make sure you have Maven installed and run the command `mvn spring-boot:run` to start the application.
+  
+3. Access the RESTful endpoints using your preferred tool (e.g., Postman, cURL, etc.) to interact with the database data.
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues reporting problems, suggest improvements, or submit pull requests with new features.
+
+---
+---  
+   
+
 # Projeto de Exemplo com Spring Boot e JPA
 
 Este é um projeto de exemplo que demonstra o uso do Spring Boot em conjunto com a tecnologia JPA (Java Persistence API) para mapeamento de banco de dados em uma aplicação Java.
